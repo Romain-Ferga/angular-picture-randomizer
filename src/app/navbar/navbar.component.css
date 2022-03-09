@@ -1,0 +1,48 @@
+.navbar-container {
+
+    display: flex;
+    text-align: left;
+    background-color: grey;
+    position: absolute;
+    top: 0px;
+    width: 90%;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin-left: 5%;
+    border: 1px solid lightgray;
+    box-shadow: 0px 0px 20px 0px;
+
+}
+
+.menu-burger {
+
+    display: flex;
+    margin-left: 3px;
+    justify-content: space-between;
+    width: 13%;
+    margin-left: 30px;
+
+}
+
+.icon-menu-burger {
+
+    padding-top: 40px;
+
+}
+
+.generate-random-pictures-btn {
+
+    margin-right: 30px;
+    height: 40px;
+    margin-top: 25px;
+    border-radius: 15px;
+
+}
+
+.navbar-title {
+
+    font-family: 'Hijo Puta Peligroso', sans-serif;
+    letter-spacing: 0px;
+    width: 100px;
+
+}

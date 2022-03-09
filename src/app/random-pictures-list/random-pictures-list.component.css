@@ -1,0 +1,51 @@
+.random-picture-list-container{
+
+    text-align: center;
+
+}
+
+
+.random-pictures-list{
+
+    display: inline-flex;
+
+}
+
+.random-picture {
+
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    
+}
+
+.random-picture > img {
+
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+.description{
+
+    position: absolute;
+    top: 20px;
+    opacity: 0;
+    transition: .2s;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .7);
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+    max-width: 80%;
+    border-radius: 5px;
+
+}
+
+.random-pictures-list:hover .description {
+
+    opacity: 1;
+
+}

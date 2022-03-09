@@ -1,0 +1,15 @@
+<div class="random-picture-list-container">
+
+    <div class="random-pictures-list" *ngFor="let randomPic of randomPicturesList">
+
+        <div class="random-picture">
+
+            <div class="description">{{ randomPic.description }}</div>
+
+            <img [src]="randomPic.url + randomPic.size" [alt]="randomPic.title">
+
+        </div>
+
+    </div>
+
+</div>

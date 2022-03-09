@@ -1,0 +1,15 @@
+<nav class="navbar-container">
+
+    <div class="menu-burger">
+
+        <i class="icon-menu-burger fa fa-bars" aria-hidden="true"></i>
+    
+        <h1 class="navbar-title">Random Pictures</h1>
+
+    </div>
+
+    <button class="generate-random-pictures-btn" (click)="openModal()">Générer une Image Aléatoire</button>
+
+    <app-modal *ngIf="showModal" (modalCloseEvent)="closeModal()"></app-modal>
+
+</nav>
